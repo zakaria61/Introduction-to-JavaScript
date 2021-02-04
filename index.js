@@ -1,32 +1,30 @@
 /*🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️ Task 1: Warm-up!🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️*/
 
 /*
-Task 1a - Voting Age
+Task 1 - Voting Age
 
 Do the following:   
    1. Make a variable called votingAge and give it a value
    2. Return true if age is 18 or higher
 
-   HINT: no function required
 */
 
 
 
 /*
-Task 1b - Values
+Task 2 - Values
 
 Do the following:   
    1. Declare two variables and assign them values
    2. Use a conditional to change the value of the 1st variable based on the value assigned to the 2nd variable
    3. Return the new value of the 1st variable
 
-   HINT: no function required
 */
 
 
 
 /*
-Task 1c - Convert Strings to Numbers
+Task 3 - Convert Strings to Numbers
 
 Do the following:   
    1. Declare a string type variable with the value of "1999"
@@ -37,127 +35,73 @@ Do the following:
 */
 
 
-
 /*
-Task 1d - Multiply
- 
+Task 4 - Mood Checker
+
 Do the following:   
-   1. Invoke the multiply function below and pass it two numbers
-   2. Receive the numbers in the parameters: a and b
-   3. Multiply a and b and return the answer
+   1. Write a script that prompts the user for their current mood. 
+   2. If the user inputs happy, print 'Yay me too!' to the console, sad print 'Aw cheer up',
+   3. Else just print 'So moody!'
+
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
-  }
 
-
-
-/*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
-
-//Age in Cat years
 /*
-Do the following:
-   1. Invoke the catYears function below and pass an age value to it
-   2. Use the received value to calculate the age in cat years (1 human year is equal to 7 cat years)
-   3. Return the newly calculated age
+
+
+Task 5 - Odd or Even
+
+Use conditionals to check if a hardcoded number is odd or even, and then console.log the number is odd or even with the numbers value.
+
 */
 
-function catYears(/*add your code here*/){
-    /*add your code here*/
-}
+var num = ; // write a number here
+
+// write your conditions here
 
 
-/*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
+/*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 FIZZBUZZ 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
-//Grocery Shopping List
 /*
-Do the following:
-   1. Create an array named "shoppingList" with these items "Onion", "Banana", "Bread", "Milk", "Eggs".
-   2. Using the function below "removeItem", remove items as you check them off from your shopping list.
-   3. Every time you invoke the function, it should remove one item.
-   4. Return this statement "Shopping list is empty" when you remove all of the items.
+
+You're about to do an assignment called "Fizz Buzz", which is one of the classic programming challenges. 
+It is a favorite for interviewers, and a shocking number of job-applicants can't get it right. 
+But you won't be one of those people. Here are the rules for the assignment:
+
+Write a program that prints the numbers from 1 to 100.
+
+But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz".
+
+For numbers which are multiples of both three and five print "FizzBuzz".
+
+The one hint you'll likely need is:
+
+There is a Javascript operator called "remainder" but often referred to as "modulus" or "modulo". 
+It is represented by the percentage sign (%) and it gives you the remainder left over after division. So for example:
+
+ 6 % 3
+
+Equals zero. Because after dividing 6 by 3, there is zero leftover. Whereas:
+
+6 % 4
+
+Equals 2. Because after dividing 6 by 4, there are 2 left over from the six.
+
+If that was confusing, don't worry. It will make more sense as you use it. 
+The point is: the remainder operator is useful for finding out if X is a multiple of Y. If it is, then X % Y will yield zero. 
+Knowing this should help you complete this assignment without any issue.
+
+
+Extra Credit:
+
+Instead of only printing "fizz", "buzz", and "fizzbuzz", add a fourth print statement: "prime". 
+You should print this whenever you encounter a number that is prime (divisible only by itself and one).
+As you implement this, don't worry about the efficiency of the algorithm you use to check for primes. 
+It's okay for it to be slow.
+
+
 */
 
-function removeItem(/*add your code here*/){
-    /*add your code here*/
-}
-
-
-/*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
-
-// Rock, Paper, Scissors - Let's play against the computer!
-/*
-Create a global variable that randomly generates the computer's choice
-Use Math.random to determine the computers choice (Math.random gives a random number between 0 and 1)
-
-HINT: While you can complete this with only conditionals based on strings, it may help to equate choice to a number when using Math.random()
-
-Use the game function below to do the following:
-  1. Receive 2 parameters the user's choice and the computer's choice
-  2. Return whether the user won, lost, or tied based on these rules of the game described below - the strings returned need to match the strings below exactly.
-   - win should return "you win!"
-   - lose should return "you lose!"
-   - tie should return "it's a tie"
-  
-  RULES OF THE GAME: Scissors beats Paper | Paper beats Rock | Rock beats Scissors | Or there's a tie
-  
-  HINT: Remember that the order in which we pass in our arguments matters when it comes to parameters
-*/
-
-function game(user, computer){
-    /*add your code here*/
-}
-  
-
-
-/*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
-
-// Let's Sing 99 Bottles of Soda on the Wall!
-/*
-Using the annoyingSong function below do the following:
-  1. Receive a starting number and start the count down from the number received 
-  2. At each invocation, it should RETURN this string (note: the tests are expecting the same string as below):
-      "{number} bottles of soda on the wall, {number} bottles of soda, take one down pass it around {number left over} bottles of soda on the wall"
-*/
-
-function annoyingSong(/*add your code here*/){
-        /*add your code here*/
-  }
-
-
-/*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
-
-//Grade Calculator
-/*
-Using the grade function below do the following: 
-  1. Receive a score out of 100 
-  2. Return the corresponding letter grade following this grade scale:
-
-   90-100 should return 'you got an A' 
-   80-89 should return 'you got a B'
-   70-79 should return 'you got a C'
-   60-69 should return 'you got a D'
-   below should return 'you got an F'
-*/
-  
-function grade(num){
-    if(num < 100 && num >= 90){
-      return 'you got an A';
-    }else if(num <90 && num >= 80){
-      return 'you got a B';
-    }else if(num < 80 && num >= 70){
-      return 'you got a C';
-    }else if(num < 70 && num >= 60){
-      return 'you got a D';
-    }else if(num < 60){
-      return 'you got an F';
-    }
-  }
-  
-  console.log('grade function', grade(85));
-  
-  
 
 /*💪💪💪💪💪💪💪💪💪💪 Stretch 💪💪💪💪💪💪💪💪💪💪*/
 
@@ -167,7 +111,7 @@ Using the vowelCounter function below do the following:
   1. Receive a string as a parameter
   2. Count and return the number of vowels within that string.  It should handle both capitalized and uncapitalized vowels.
 
-  HINT - you may need to study tomorrow's content on arrays 
+  HINT - you may need to study next week's content on arrays 
   HINT - try looking up the .includes() method
 */
 
