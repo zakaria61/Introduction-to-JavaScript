@@ -55,7 +55,7 @@ Use conditionals to check if a hardcoded number is odd or even, and then console
 
 */
 
-var num = ; // write a number here
+var num; // write a number here
 
 // write your conditions here
 
