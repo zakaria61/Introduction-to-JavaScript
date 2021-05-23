@@ -10,6 +10,21 @@ Do the following:
 */
 
 
+// let votingAge = prompt('check voting eligibility');
+
+// if( votingAge >=18){
+
+// console.log("you can vote");
+// }
+
+// else {
+
+// console.log("you can't vote ");
+// }
+
+
+
+
 
 /*
 Task 2 - Values
@@ -21,6 +36,17 @@ Do the following:
 
 */
 
+
+
+
+
+// let a = 10;
+// let b = 5;
+//  if ( b === 5 ){
+//     a=20;
+//     console.log(a);
+
+//  };
 
 
 /*
@@ -35,6 +61,14 @@ Do the following:
 */
 
 
+//let myNumber = "1999"
+
+// console.log(parseInt(myNumber));
+
+
+
+
+
 /*
 Task 4 - Mood Checker
 
@@ -44,6 +78,19 @@ Do the following:
    3. Else just print 'So moody!'
 
 */
+//const moodChecker=prompt("enter your mood");
+// if(moodChecker ==="happy") {
+//    console.log("Yay me too!");
+// }
+// else if (moodChecker ==="sad"){
+//    console.log("Aw cheer up");
+// }
+// else{
+//    console.log("so moody");
+// };
+
+
+
 
 
 /*
@@ -54,6 +101,20 @@ Task 5 - Odd or Even
 Use conditionals to check if a hardcoded number is odd or even, and then console.log the number is odd or even with the numbers value.
 
 */
+
+//let number = prompt(" enter a number ");
+// if ( number % 2 ==0){
+//    console.log("the number is even");
+// }
+// else{
+//    console.log(" the number is od6d");
+// }
+
+
+
+
+
+
 
 var num; // write a number here
 
@@ -101,6 +162,29 @@ It's okay for it to be slow.
 
 
 */
+
+
+// function  FIZZBUZZ (){
+
+
+//    for(var i=1; i <= 100; i++){
+//       if(i % 3 === 0 && i % 5 ===0){
+//          console.log("fizzbuzz");
+//       } else if(i % 3 ===0);
+//       console.log("fizz");
+//    } else if(i % 5 === 0);{
+// console.log("buzz");
+//    }
+//    else{
+//       console.log(i);
+//    }
+// }
+
+//  FIZZBUZZ();
+
+s
+
+
 
 
 /*💪💪💪💪💪💪💪💪💪💪 Stretch 💪💪💪💪💪💪💪💪💪💪*/
